@@ -1,0 +1,12 @@
+En este seccion generaremos el analisis de requisitos 
+
+Tecnologias.
+
+****Lenguage de programacion: PHP 7.2.1
+****Framework: Laravel 3.2.
+****Framework vista: Boostrap 4
+****Base de Datos:
+****Modelo de codigo:
+****Patron de Arquitectura:
+****Metodologia:
+
