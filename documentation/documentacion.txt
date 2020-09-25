@@ -10,3 +10,13 @@ Tecnologias.
 ****Patron de Arquitectura:
 ****Metodologia:
 
+Objetivos del blog:
+1.- Brindar un punto de partida para aquella persona interesada en la programacion.
+2.- Brindar una ruta de aprendizaje para saber que camino elegir para nuevos desarrolladores
+3.- brindar experiencia e informacion variada que podamos consultar y utilizar para el aprendizaje de programacion.
+4.- tener tutoriales y proyectos que un nuevo desarrollador/a pueda utilizar para mostrar resultados y habilidades
+
+Objetivos como desarolladores
+1.- Tener un proyecto que podamos mostrar que construimos nosotros.
+2.- Aprender a trabajar con buenas practicas y metodologias
+3. Aprender nuevas tecnologias y mejorar nuestras habilidades.
