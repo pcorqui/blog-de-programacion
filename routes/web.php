@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Ruta raiz cuando se entra a la paguina mostrara la vista welcome
 Route::get('/', function () {
     return view('welcome');
 });

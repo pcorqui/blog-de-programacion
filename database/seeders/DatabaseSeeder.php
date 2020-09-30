@@ -17,6 +17,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+
+        //usuario creado de forma manual para realizar las pruebas el metodo create se herada de Eloquent
         // \App\Models\User::factory(10)->create();
         \App\Models\User::create([
             'name' => 'paul',
@@ -24,6 +26,9 @@ class DatabaseSeeder extends Seeder
             'password'=> bcrypt('123456')
         ]);
 
+        //este factoy crea 24 post de prueba utilizando la clase post
+        //El metodo statico factory de post es heredado de Eloquent(me parece)
+        //El funcionamiento de factory esta definido en la ruta database/factories/PostFactory.php
         Post::factory()->count(24)->create();
     }
 }

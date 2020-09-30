@@ -22,6 +22,7 @@ class PostFactory extends Factory
      */
     public function definition()
     {
+        //las Keys son los nombres de la columnas en la base de datos
         return [
             'user_id' => 1,
             'title'   => $this->faker->sentence,
