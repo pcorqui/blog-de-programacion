@@ -29,3 +29,7 @@ Route::get('blog/{post}',[App\Http\Controllers\PageController::class,'post'])->n
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('posts', App\Http\Controllers\Backend\PostController::class)
+    ->middleware('auth')
+    ->except('show');
