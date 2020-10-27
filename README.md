@@ -27,4 +27,45 @@ Pero basicamente dice corre el siguiente comando: composer global require larave
 
 
 
+# **Estructura de carpetas**(las muchas carpetas adentro) 
+
+## La carpeta raiz
+-carpeta App
+    Esta carpeta contendra nuestros modelos y controladores cuando las creemos contiene nuestro codigo fuente, dentro contiene otras subcarpetas que aun no comprendo pero ya se veran despues.
+        
+        - carpeta Http/
+            en esta carpeta encontraremos dos carpetas mas Controllers y Models (esto solo en laravel 8)
+            
+            - carpeta Controllers
+                aqui va toda la logica de la aplicación donde se manejan las solicitudes entrantes a nuestra aplicacion
+            
+            - carpeta Models
+            Los modelos de datos son manejados por el ORM eloquent, este brinda una forma facil de trabajar con la base de datos sin tener que complicarse las cosas con sql.
+    
+    - Carpeta config
+    contiene los archivos de configuracion para nuestro proyecto
+    
+    - Carpeta database
+    Esta carpeta contendra todos los archivos relacionados a la base datos(obvio) como es la estructura(si puedes crear la base de datos directamente desde el codigo), los archivos de migracion y las semillas(para crear datos de prueba)
+    
+    - Carpeta public
+    Aqui esta el archivo index.php que es el punto de entrada para todas las solicitudes a nuestra aplicacion, aqui tambien van los archivos CSS y JS
+    
+    - Carpeta routes
+    Esta carpeta contiene las URL para nuestro proyecto dentro de ella vienen los archivos web.php y api.php vienen otros dos pero solo utilizaremos estos.
+    
+    - Carpeta de recursos
+    Esta carpeta almacena las vistas de nuestra aplicacion web(los html)
+   
+   # Configuracion del proyecto para correr en tu entorno local.
+   Todas las configuraciones estan en el archivo .env en la carpeta del proyecto(buscare como poner capturas de pantalla pa' mostrar como jala)
+   
+   
+    
+    
+    
+    
+    
+
+
 repositorio para la creacion de un blog para compartir contenido de programacion y mejorar las habilidades
